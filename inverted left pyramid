@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+int i,j,row;
+printf("enter the row: ");
+scanf("%d",&row);
+printf("\n");
+for(i=row;i>0;i--){
+    for(j=i;j>0;j--){
+        printf("*");
+    }
+    printf("\n");
+}
+}
